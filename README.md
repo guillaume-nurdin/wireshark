@@ -34,8 +34,11 @@ Interface à sélectionner : eth0 (ou celle connectée à Alcasar).
 Protocole	Filtre Wireshark	Exemple d'analyse
 
 ARP	--- arp	= Résolution IP → MAC
+
 UDP ---	udp =	Flux média, DNS
+
 TCP ---	tcp	= HTTP, HTTPS, FTP
+
 
 Exemple de trame TCP :
 
