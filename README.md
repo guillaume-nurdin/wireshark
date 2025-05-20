@@ -42,13 +42,13 @@ TCP ---	tcp	= HTTP, HTTPS, FTP
 
 Exemple de trame TCP :
 
----MAC Source : 08:00:27:ab:cd:ef
+---MAC Source : ec:ad:e0:13:18:02
 
----IP Source : 10.10.0.100
+---IP Source : 10.10.0.1 (Alcasar)
 
----MAC Destination : 08:00:27:12:34:56
+---MAC Destination : f8:54:f6:b1:f9:db
 
----IP Destination : 10.10.0.1 (Alcasar)
+---IP Destination : 10.10.242.69
 
 🔹 Désencapsulation OSI :
 
