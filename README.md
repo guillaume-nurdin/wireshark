@@ -99,17 +99,21 @@ _ Partie 3 : Automatisation avec tshark
 
 
 1. Installation
-bash
-sudo apt install tshark
-2. Commandes utiles
+```sudo apt install tshark```
+
+3. Commandes utiles
 Action	Commande
 Capture DNS	sudo tshark -i eth0 -Y "dns" -w dns.pcapng
+
 Capture HTTP	sudo tshark -i eth0 -Y "http" -w http.pcapng
+
 Export en texte	tshark -r capture.pcapng -V > analyse.txt
-3. Filtres avancés
-bash
+
+5. Filtres avancés
+```bash
 tshark -i eth0 -Y "ip.src == 10.10.0.1"  # Filtre par IP source
 tshark -i eth0 -Y "tcp.port == 443"      # HTTPS
+```
 Conclusion & Compétences Validées
 ✅ Administration réseau : Capture et analyse des trames.
 ✅ Sécurité : Identification des protocoles non sécurisés (FTP).
