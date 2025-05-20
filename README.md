@@ -53,10 +53,15 @@ Exemple de trame TCP :
 🔹 Désencapsulation OSI :
 
 Couche        	    Élément analysé
+
 Liaison (2)	        Adresses MAC
+
 Réseau (3)	        Adresses IP
+
 Transport (4)     	Ports TCP/UDP
+
 Application (7)   	HTTP, DNS, FTP
+
 
 
 🔹 Connexion TCP (3-Way Handshake)
@@ -71,11 +76,17 @@ Partie 2 : Analyse avancée des protocoles
 
 1. Protocoles à étudier (VM en NAT)
 Protocole	     Filtre Wireshark	      Observations
+
 DHCP	      -- bootp  --             	Attribution IP
+
 DNS	        -- dns	  --              Résolution de noms
+
 mDNS	      -- mdns	  --              DNS local (.local)
+
 FTP         -- ftp	  --              ⚠️ Mots de passe en clair !
+
 HTTPS       -- tls    --	            Chiffré (sécurisé)
+
 
 
 3. Sécurité des protocoles
