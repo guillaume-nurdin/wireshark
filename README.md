@@ -63,7 +63,6 @@ Transport (4)     	Ports TCP/UDP
 Application (7)   	HTTP, DNS, FTP
 
 
-
 🔹 Connexion TCP (3-Way Handshake)
 
 Client → SYN → Serveur
