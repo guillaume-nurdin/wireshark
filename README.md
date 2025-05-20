@@ -103,11 +103,11 @@ _ Partie 3 : Automatisation avec tshark
 
 3. Commandes utiles
 Action	Commande
-Capture DNS	sudo tshark -i eth0 -Y "dns" -w dns.pcapng
+Capture DNS	```sudo tshark -i eth0 -Y "dns" -w dns.pcapng```
 
-Capture HTTP	sudo tshark -i eth0 -Y "http" -w http.pcapng
+Capture HTTP	```sudo tshark -i eth0 -Y "http" -w http.pcapng```
 
-Export en texte	tshark -r capture.pcapng -V > analyse.txt
+Export en texte	```tshark -r capture.pcapng -V > analyse.txt```
 
 5. Filtres avancés
 ```bash
